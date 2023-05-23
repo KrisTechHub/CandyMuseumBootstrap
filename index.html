@@ -20,12 +20,41 @@
 </head>
 
 <body>
-    <nav id="mainNavbar" class="navbar navbar-dark bg-dark navbar-expand-md">
+    <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
         <a href="#" class="navbar-brand">CANDY</a>
-        <button class="navbar-toggler" data-toggle="collapse" data-taret="">
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-links"
+            aria-label="Toggle Navigation Bar">
             <span class="navbar-toggler-icon"></span>
         </button>
+        <div class="collapse navbar-collapse" id="nav-links">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">TICKETS</a>
+                </li>
+            </ul>
+        </div>
     </nav>
+
+    <section class="fluid-container px-0">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div class="text-white">
+                    <h2 class="text-center">MUSEUM OF CANDY</h2>
+                    <h2 class="text-center">MUSEUM OF CANDY</h2>
+                    <h2 class="text-center">MUSEUM OF CANDY</h2>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <img src="./img/hand2.png" alt="" class="img-fluid" srcset="">
+            </div>
+        </div>
+    </section>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
